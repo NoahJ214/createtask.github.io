@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+## Ideas
+* GPA Calc for student athletes
+* Sports game
+* Sports Quiz
+## Final Decision
+The idea we decided on in the end was a sports logo quiz. With the GPA calculator, we weren't able to get a couple requirements. And we weren't sure what sports game to create without it being wildly complicated. Which left us with our quiz. In our quiz, a sports team will be written at the top and you have to try and guess which logo is that team's out of 4 options. It will keep tally of your score and give you a final score at the end.
+| Requirement  | Application |
+| ------------- | ------------- |
+| One list (or other collection type) | List of Questions for quiz.  |
+| One Procedure  | Called function to shuffle quiz questions on load.  |
+| Algorithm that includes sequencing, selection, and iteration  | Also included in question order randomizer. |
+| Calls to student developed procedure | Calls question shuffler for random question order. |
+| User Input  | Logo/answers for each question. |
+| Instructions for output  | Final score at the end of the quiz. |
 
-You can use the [editor on GitHub](https://github.com/NoahJ214/createtask.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Create Task Plan: Sports Team Logo Guesser Game
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+□ Instructions for input from one of the following: ◆ the user (including user actions that trigger events) ◆ a device ◆ an online data stream ◆ a file
 
-### Markdown
+User input that will be included is the answers to each question which would be the logos.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+□ Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose
 
-```markdown
-Syntax highlighted code block
+We have a list of our various questions and their answers in order to be pulled when the user starts the quiz and creates a randomly ordered quiz for them.
 
-# Header 1
-## Header 2
-### Header 3
+□ At least one procedure that contributes to the program’s intended purpose, where you have defined: ◆ the procedure’s name ◆ the return type (if necessary) ◆ one or more parameters
 
-- Bulleted
-- List
+One Procedure that is included is our shuffle function which is called when the page is opened. When called, it takes the list of questions and randomly orders them for the quiz.
 
-1. Numbered
-2. List
+□ An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure
 
-**Bold** and _Italic_ and `Code` text
+Algorithm will use selection when it picks a question to display. Iteration will be displayed in that the process of displaying a question, getting an inputted logo answer, and telling the user if they are correct will be completed at the end and the player will be given a score depending on their accuracy. 
+   
+□ Calls to your student-developed procedure
 
-[Link](url) and ![Image](src)
-```
+After the player clicks next when getting a logo guess right/wrong a logo will be displayed for the user to guess.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+□ Instructions for output (tactile, audible, visual, or textual) based on input and program functionality
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NoahJ214/createtask.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Textual output that displays the user's final score at the end. 
